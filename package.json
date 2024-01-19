@@ -9,7 +9,7 @@
     "eleventy:build": "cross-env ELEVENTY_ENV=production eleventy",
     "eleventy:watch": "cross-env ELEVENTY_ENV=development eleventy --serve",
     "start": "npm-run-all bookshop-sass:fetch-theme-color bookshop-sass:build --parallel bookshop-sass:watch eleventy:watch",
-    "depinstall": "npm install npx @11ty/eleventy npm start",
+    "depinstall": "npx @11ty/eleventy npm install npm start",
     "build": "npm-run-all bookshop-sass:fetch-theme-color bookshop-sass:build eleventy:build"
   },
   "author": "OliverKozul",
