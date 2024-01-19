@@ -3,7 +3,6 @@
   "version": "1.0.1",
   "description": "Expert Writer",
   "scripts": {
-    "bookshop:watch": "bookshop-browser",
     "bookshop-sass:fetch-theme-color": "node site/js/fetch-theme-color.js",
     "bookshop-sass:build": "bookshop-sass -b component-library -o site/css/theme.css",
     "bookshop-sass:watch": "bookshop-sass -b component-library -o site/css/theme.css -w",
