@@ -21,6 +21,7 @@
     "@bookshop/eleventy-engine": "3.3.3",
     "@bookshop/generate": "3.3.3",
     "build": "^0.1.4",
+    "cross-env": "^7.0.3",
     "eleventy-plugin-wordcount": "^1.0.5",
     "markdown-it": "^13.0.1",
     "npm": "^10.3.0",
