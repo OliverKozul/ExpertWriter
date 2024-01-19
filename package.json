@@ -1,7 +1,7 @@
 {
-  "name": "sendit_eleventy",
+  "name": "expertwriter",
   "version": "1.0.1",
-  "description": "Sendit is a email marketing tool which ensure the business growth",
+  "description": "Expert Writer",
   "scripts": {
     "bookshop:watch": "bookshop-browser",
     "bookshop-sass:fetch-theme-color": "node site/js/fetch-theme-color.js",
@@ -9,9 +9,10 @@
     "bookshop-sass:watch": "bookshop-sass -b component-library -o site/css/theme.css -w",
     "eleventy:build": "cross-env ELEVENTY_ENV=production eleventy",
   "eleventy:watch": "cross-env ELEVENTY_ENV=development eleventy --serve",
-  "start": "npm-run-all bookshop-sass:fetch-theme-color bookshop-sass:build --parallel bookshop-sass:watch eleventy:watch"
+  "start": "npm-run-all bookshop-sass:fetch-theme-color bookshop-sass:build --parallel bookshop-sass:watch eleventy:watch",
+  "build": "bookshop-sass:fetch-theme-color bookshop-sass:build --parallel eleventy:build"
   },
-  "author": "CloudCannon",
+  "author": "OliverKozul",
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^1.0.1",
