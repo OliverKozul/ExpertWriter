@@ -1,0 +1,13 @@
+.error {
+   position: relative;
+   background: $color-secondary-dark;
+   padding-top: $base-padding * 10;
+   padding-bottom: $base-padding * 10;
+   &-content {
+      position: relative;
+      h3 {
+         color: $color-header;
+         font-weight: $bold-font-weight;
+      }
+   }
+}

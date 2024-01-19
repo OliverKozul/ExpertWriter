@@ -1,0 +1,42 @@
+<section class="faq-two">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-8 mx-auto">
+            <div class="section-header">
+               <h2>{{title}} <span>{{title_suffix}}</span></h2>
+               <p>{{description | markdownify}}</p>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-lg-12">
+            <div class="accordion" id="accordionExample">
+               {% for item in FAQ %}
+               <div class="accordion-item shows">
+                  <span>0{{forloop.index}}</span>
+                  <h2 class="accordion-header" id="heading{{forloop.index}}">
+                     <a
+                        href="/example{{forloop.index}}/"
+                        class="accordion-button"
+                        aria-expanded="true"
+                        target="_blank"
+                        style="outline: none; text-decoration: none;"
+                     >
+                        <p class="header-content">{{item.title}}</p>
+                     </a>
+                  </h2>
+                  <div
+                     id="collapse{{forloop.index}}"
+                     class="accordion-collapse show"
+                     aria-labelledby="heading{{forloop.index}}"
+                     data-bs-parent="#accordionExample"
+                  >
+                     <div class="accordion-body">{{item.description | markdownify}}</div>
+                  </div>
+               </div>
+               {% endfor %}
+            </div>
+         </div>
+      </div>
+   </div>
+</section>

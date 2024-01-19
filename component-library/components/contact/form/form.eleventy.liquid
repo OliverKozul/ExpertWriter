@@ -1,0 +1,63 @@
+<section class="contact">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-5 me-auto order-2 order-lg-1">
+            <div class="contact-form-Information">
+               <div class="address">
+                  <h3>{{address.heading}}</h3>
+                  <p>{{address.address}}</p>
+                  <div class="item mb-4">
+                     <h3>{{phone.heading}}</h3>
+                     <a href="tel:{{phone.cell}}" class="copy-button"
+                        data-content="+381638460533"
+                        title="Click to copy!"
+                        >{{phone.cell}}
+                        <span>
+                           <img 
+                              src="{{ phone.image }}" 
+                              alt="{{ phone.image_alt }}" 
+                              loading="lazy" />
+                        </span>
+                     </a>
+                  </div>
+                  <div class="item">
+                     <h3>{{email.heading}}</h3>
+                     <a href="mailto:{{email.email}}" class="copy-button"
+                        data-content="nkozul@gmail.com"
+                        title="Click to copy!"
+                        >{{email.email}}
+                        <span>
+                           <img
+                              src="{{ email.image }}"
+                              alt="{{ email.image_alt }}"
+                              loading="lazy"
+                           />
+                        </span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<script>
+   document.addEventListener('DOMContentLoaded', function() {
+      const copyButtons = document.querySelectorAll('.copy-button');
+
+      copyButtons.forEach(button => {
+         button.addEventListener('click', function(event) {
+            event.preventDefault();
+            
+            const contentToCopy = button.getAttribute('data-content');
+            const dummyTextArea = document.createElement('textarea');
+            dummyTextArea.value = contentToCopy;
+            document.body.appendChild(dummyTextArea);
+            dummyTextArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(dummyTextArea);
+         });
+      });
+   });
+</script>

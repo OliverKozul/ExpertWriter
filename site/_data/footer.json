@@ -1,0 +1,60 @@
+{
+  "logo": "/images/footer-logo.svg",
+  "copyright": "Expert Writer, All rights reserved.",
+  "social": [
+    {
+      "link": "https://www.linkedin.com/in/natasha-kozul-bb3aa92/",
+      "icon": "ph-linkedin-logo",
+      "icon_alt": "Linked in"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Information",
+      "texts": [
+        {
+          "text": "Company name:  Nataša Kožul pr Expert Writer"
+        },
+        {
+          "text": "Matični broj / Company ID number: 66911063"
+        },
+        {
+          "text": "PIB / Tax Code: 113559509"
+        },
+        {
+          "text": "Service sector: 8560 – Auxiliary educational services / Pomoćne obrazovne delatnosti"
+        }
+      ]
+    },
+    {
+      "title": "Main Pages",
+      "links": [
+        {
+          "link": "/",
+          "text": "Home"
+        },
+        {
+          "link": "/editing levels",
+          "text": "Editing levels"
+        },
+        {
+          "link": "/pricing",
+          "text": "Price"
+        },
+        {
+          "link": "/about",
+          "text": "About"
+        },
+        {
+          "link": "/contact",
+          "text": "Contact"
+        }
+      ]
+    }
+  ],
+  "_inputs": {
+    "logo": {
+      "type": "image"
+    }
+  }
+}

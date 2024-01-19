@@ -1,0 +1,11 @@
+{
+    "BaseURL": "http://example.org",
+    "site_title": "Expert Writer",
+    "favicon_icon": "/images/favicon.ico",
+    "favicon_image": "/images/favicon.png",
+    "description": "Expert Writer",
+    "twitter_image": "/images/feature/feature-hero-two.png",
+    "twitter_site": "@twitter_site",
+    "image": "/images/feature/feature-hero.png"
+    
+}

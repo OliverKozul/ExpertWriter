@@ -1,0 +1,23 @@
+<section class="pricing pb-lg-1 pb-lg-15 pb-md-5">
+   <div class="container">
+      <div class="row">
+         {% for item in pricing_tier %}
+         <div class="col-lg-4">
+            <div class="card pricing-item {% if item.highlight_tier %} active {% endif %}">
+               <h5 class="card-title">{{item.tier}}</h5>
+               <p class="card-text">{{item.description}}</p>
+               <div class="card-body">
+                  <ul class="list-unstyled">
+                     {% for feature in item.features %}
+                     <li class="">
+                        {{feature.item}}
+                     </li>
+                     {% endfor %}
+                  </ul>
+               </div>
+            </div>
+         </div>
+         {% endfor %}
+      </div>
+   </div>
+</section>

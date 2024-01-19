@@ -1,0 +1,24 @@
+.works {
+  padding-left: $base-padding * 15;
+  background:$color-secondary-dark;
+  @include media-breakpoint-down-xl {
+      padding-bottom: $base-padding * 5;
+  }
+  @include media-breakpoint-down-md {
+      padding-bottom: $base-padding * 3;
+  }
+  .section-header {
+      padding-bottom: $base-padding * 4.4;
+      @include media-breakpoint-down-sm {
+        padding-bottom: $base-padding * 3;
+      }
+  }
+  .shows {
+      border: 3px solid $color-primary;
+  }
+  p{
+    font-size: $base-padding * 1.4;
+  }
+}
+ 
+ 

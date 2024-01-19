@@ -1,0 +1,67 @@
+.hero-two {
+  position: relative;
+  background: $color-secondary-dark;
+  padding: $base-padding * 11.3 $base-padding * 10 $base-padding * 5;
+  z-index: 1;
+  overflow: hidden;
+  @include media-breakpoint-down-xl {
+    padding: $base-padding * 10 10 $base-padding * 10;
+  }
+  @include media-breakpoint-down-lg {
+    padding: $base-padding * 10 10 $base-padding * 10;
+  }
+  @include media-breakpoint-down-md {
+    padding: $base-padding * 10 10 $base-padding * 10;
+  }
+  @include media-breakpoint-down-sm {
+    padding: $base-padding * 10 10 $base-padding * 10;
+  }
+  &-content {
+    margin-top: 3rem;
+    padding-left: $base-padding * 5;
+    @include media-breakpoint-down-xxxl {
+      padding-left: $base-padding * 15;
+    }
+    @include media-breakpoint-down-xxl {
+      padding-left: $base-padding * 15;
+    }
+    @include media-breakpoint-down-lg {
+      padding-left: $base-padding * 15;
+      text-align: center;
+    }
+    @include media-breakpoint-down-md {
+      padding-left: $base-padding * 15;
+    }
+    @include media-breakpoint-down-sm {
+      padding-left: $base-padding * 15;
+    }
+    h1 {
+      line-height: 80px;
+      @include media-breakpoint-down-lg {
+        padding-left: $base-padding * 15;
+        font-size: $base-font-size * 4;
+        line-height: 80px;
+      }
+      @include media-breakpoint-down-md {
+        padding-left: $base-padding * 15;
+        font-size: $base-font-size * 3;
+        line-height: 60px;
+      }
+      @include media-breakpoint-down-sm {
+        padding-left: $base-padding * 15;
+        font-size: $base-font-size * 2.5;
+        line-height: 50px;
+      }
+      font-size: $base-padding * 3.75;
+    }
+    p {
+      font-size: $base-padding * 1.4;
+      text-align: justify;
+    }
+  }
+  img {
+    margin-left: 200px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  }
+}

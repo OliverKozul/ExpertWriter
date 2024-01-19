@@ -1,0 +1,55 @@
+.pricing-inner {
+   position: relative;
+   padding: $base-padding * 0 $base-padding * 0 $base-padding * 3; // Adjust the multiplier values accordingly
+   text-align: justify;
+
+   @include media-breakpoint-down-xxl {
+      padding: $base-padding * 1 $base-padding * 0 $base-padding * 2; // Adjust the multiplier values accordingly
+   }
+
+   @include media-breakpoint-down-lg {
+      padding: $base-padding * 1 $base-padding * 0 $base-padding * 2; // Adjust the multiplier values accordingly
+   }
+
+   @include media-breakpoint-down-md {
+      padding: $base-padding * 1 $base-padding * 0 $base-padding * 2; // Adjust the multiplier values accordingly
+   }
+
+   @include media-breakpoint-down-sm {
+      padding: $base-padding * 0.85 $base-padding * 0 $base-padding * 2; // Adjust the multiplier values accordingly
+   }
+
+   .section-header {
+      padding: 0 0 $base-padding * 1;
+
+      h2 {
+         font-size: $base-font-size * 4;
+         line-height: 80px;
+         margin-bottom: $base-margin * 1.5;
+
+         @include media-breakpoint-down-xl {
+            font-size: $base-font-size * 3.9;
+         }
+
+         @include media-breakpoint-down-lg {
+            font-size: $base-font-size * 3.5;
+            line-height: 30px;
+         }
+
+         @include media-breakpoint-down-md {
+            font-size: $base-font-size * 3;
+            line-height: 60px;
+         }
+
+         @include media-breakpoint-down-sm {
+            font-size: $base-font-size * 2.5;
+            line-height: 50px;
+         }
+      }
+
+      p {
+         font-size: $base-font-size * 1.5;
+         text-align: justify;
+      }
+   }
+}

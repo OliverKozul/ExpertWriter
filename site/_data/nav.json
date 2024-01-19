@@ -1,0 +1,46 @@
+{
+  "logo": "/images/logo.svg",
+  "items": [
+    {
+      "text": "Home",
+      "link": "/",
+      "enable_dropdown": false,
+      "dropdown": []
+    },
+    {
+      "text": "Editing levels",
+      "link": "/editing levels/",
+      "enable_dropdown": false,
+      "dropdown": []
+    },
+    {
+      "text": "Additional services",
+      "link": "/additional services/",
+      "enable_dropdown": false,
+      "dropdown": []
+    },
+    {
+      "text": "Pricing",
+      "link": "/pricing/",
+      "enable_dropdown": false,
+      "dropdown": []
+    },
+    {
+      "text": "About",
+      "link": "/about/",
+      "enable_dropdown": false,
+      "dropdown": []
+    },
+    {
+      "text": "Contact",
+      "link": "/contact/",
+      "enable_dropdown": false,
+      "dropdown": []
+    }
+  ],
+  "enable_nav_btn": true,
+  "nav_btn": {
+    "text": "Contact me",
+    "link": "/contact/"
+  }
+}
