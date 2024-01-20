@@ -22,6 +22,7 @@
       h1 {
          font-size: $base-font-size * 2.3;
          margin-bottom: $base-margin * 1.5;
+         line-height: 50px;
          @include media-breakpoint-down-sm {
             font-size: $base-font-size * 2.5;
             line-height: 30px;

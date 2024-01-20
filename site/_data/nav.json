@@ -26,6 +26,12 @@
       "dropdown": []
     },
     {
+      "text": "Serbian academics",
+      "link": "/serbian academics/",
+      "enable_dropdown": false,
+      "dropdown": []
+    },
+    {
       "text": "About",
       "link": "/about/",
       "enable_dropdown": false,

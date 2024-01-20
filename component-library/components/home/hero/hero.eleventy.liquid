@@ -1,23 +1,20 @@
-<section class="hero-two">
-   <div class="hero-two-shape"></div>
-   <div class="container-fluid">
-      <div class="row align-items-center">
-         <div class="col-lg-6">
-            <div class="hero-two-content">
-               <h1 class="mb-4">{{title}}</h1>
-               <div class="mb-7 w-xxl-80">{{description | markdownify}}</div>
-               <div class="">
+<section class="hero-two col-lg-25 mx-auto">
+   <div class="row col-lg-10 mx-auto">
+      <div class="col-lg-6">
+         <div class="hero-two-content mb-xl-15 mb-md-10 mb-7 ps-xxl-8 ps-0">
+            <h2 class="pe-xl-0">{{title}}</h2>
+            <p>{{description | markdownify}}</p>
+            <div class="">
                   <a href="{{button.url}}" class="btn btn-primary btn-lg"> {{button.text}} </a>
-               </div>
             </div>
          </div>
-         <div class="col-lg-6">
-            <div class="hero-two-banner">
-               <img src="{{image}}" alt="{{image_alt}}" />
-               <div class="hero-two-banner-shape"></div>
+      </div>
+      <div class="col-lg-4">
+         <div class="hero-two-banner mb-sm-8 mb-lg-10 mb-xxl-15 mb-7">
+            <div class="card-image">
+            <img src="{{image}}" alt="{{image_alt}}" loading="lazy" />
             </div>
          </div>
       </div>
    </div>
 </section>
-
