@@ -1,7 +1,6 @@
 .contact-hero {
    background: $color-secondary-dark;
    text-align: center;
-   padding-top: $base-padding * 4;
    @include media-breakpoint-down-xl {
       padding: $base-padding * 13 0 $base-padding * 5;
       text-align: center;
@@ -20,7 +19,7 @@
    }
    &-content {
       h1 {
-         font-size: $base-font-size * 2.3;
+         font-size: $base-font-size * 2;
          margin-bottom: $base-margin * 1.5;
          line-height: 50px;
          @include media-breakpoint-down-sm {
@@ -38,6 +37,7 @@
          @include media-breakpoint-down-lg {
             width: 100%;
          }
+         padding-bottom: $base-padding;
       }
    }
 }

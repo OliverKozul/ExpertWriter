@@ -16,7 +16,6 @@
     padding: $base-padding * 10 10 $base-padding * 10;
   }
   &-content {
-    margin-top: 3rem;
     padding-left: $base-padding * 5;
     @include media-breakpoint-down-xxxl {
       padding-left: $base-padding * 15;
@@ -60,6 +59,7 @@
   }
   img {
     margin-left: $base-margin * 3;
+    margin-top: 12rem;
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
   }
