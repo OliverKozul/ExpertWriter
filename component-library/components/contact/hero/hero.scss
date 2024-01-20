@@ -29,13 +29,12 @@
          }
       }
       p {
-         margin-left: $base-margin * 8;
          font-size: $base-font-size * 1.4;
          color: $color-text-light;
          text-align: justify;
          font-weight: 500;
          line-height: 36.3px;
-         width: 80%;
+         width: 100%;
          @include media-breakpoint-down-lg {
             width: 100%;
          }
