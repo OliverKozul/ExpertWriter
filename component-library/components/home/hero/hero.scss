@@ -62,5 +62,11 @@
     margin-top: 12rem;
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    height: auto;
+  }
+  @media only screen and (max-width: 1366px) {
+    img {
+      max-width: 50%;
+    }
   }
 }
