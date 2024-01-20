@@ -1,5 +1,5 @@
 .about-hero-two {
-  padding: $base-padding * 9 0 $base-padding * 3;
+  padding: $base-padding * 14 0 $base-padding * 0;
   background: $color-secondary-dark;
   overflow: hidden;
   @include media-breakpoint-down-xxl {
@@ -53,7 +53,7 @@
       font-weight: $medium-font-weight;
       line-height: 35px;
       letter-spacing: -0.4px;
-      margin-bottom: $base-margin * 9;
+      margin-bottom: $base-margin * 0;
       @include media-breakpoint-down-xxl {
         margin-bottom: $base-margin * 5;
       }
