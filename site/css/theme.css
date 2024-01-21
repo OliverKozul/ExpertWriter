@@ -13144,9 +13144,9 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   border: 3px solid #0d1538;
 }
 .works p {
-  padding-left: 1.25rem;
-  line-height: 20px;
-  font-size: 1rem;
+  padding-left: 1.5rem;
+  line-height: 30px;
+  font-size: 1.25rem;
 }
 
 .contact {
@@ -14542,7 +14542,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   display: flex;
   align-items: center;
   color: #161616;
-  font-size: 1.25rem;
+  font-size: 1.18rem;
   line-height: 33px;
   margin-bottom: 1.9rem;
   font-weight: 700;
