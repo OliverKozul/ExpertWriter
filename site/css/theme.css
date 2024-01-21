@@ -13143,9 +13143,9 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .works .shows {
   border: 3px solid #0d1538;
 }
-.works p7 {
+.works p {
   line-height: 30px;
-  font-size: 0.96rem;
+  font-size: 1rem;
 }
 
 .contact {
@@ -14510,6 +14510,26 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 }
 .pricing .card .price .discount .vector-one {
   left: 58%;
+}
+.pricing .card .price .shape-one {
+  -webkit-mask-image: url(/images/pricing/shape-one.png);
+  mask-image: url(/images/pricing/shape-one.png);
+  background: #faaa8f;
+}
+.pricing .card .price .shape-two {
+  -webkit-mask-image: url(/images/pricing/shape-two.png);
+  mask-image: url(/images/pricing/shape-two.png);
+  background: #faaa8f;
+}
+.pricing .card .price .shape-two, .pricing .card .price .shape-one {
+  position: absolute;
+  top: 10px;
+  z-index: -1;
+  left: 10%;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  width: 35%;
+  height: 100%;
 }
 .pricing .card-body {
   padding: 0rem 2.9rem;
