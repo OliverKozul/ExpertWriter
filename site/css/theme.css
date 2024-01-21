@@ -13145,7 +13145,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 }
 .works p {
   line-height: 30px;
-  font-size: 1rem;
+  font-size: 1.01rem;
 }
 
 .contact {
