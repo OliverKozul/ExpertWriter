@@ -3,5 +3,5 @@ _site
 .DS_Store
 */.DS_Store
 */*/.DS_Store
-site/css/theme.css
+#site/css/theme.css
 .vscode

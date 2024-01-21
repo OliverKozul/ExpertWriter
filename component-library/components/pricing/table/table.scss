@@ -1,6 +1,7 @@
 .pricing {
    position: relative;
    background:$color-secondary-dark;
+   margin-top: 0.5rem;
    @include media-breakpoint-down-md {
       margin-top: -$base-margin * 25;
    }
@@ -106,26 +107,6 @@
             .vector-one {
                left: 58%;
             }
-         }
-         .shape-one {
-            -webkit-mask-image: url(/images/pricing/shape-one.png);
-            mask-image: url(/images/pricing/shape-one.png);
-            background: $color-background-effects;
-         }
-         .shape-two {
-            -webkit-mask-image: url(/images/pricing/shape-two.png);
-            mask-image: url(/images/pricing/shape-two.png);
-            background: $color-background-effects;
-         }
-         .shape-two, .shape-one {
-            position: absolute;
-            top: 10px;
-            z-index: -1;
-            left: 10%;
-            mask-repeat: no-repeat;
-            -webkit-mask-repeat: no-repeat;
-            width: 35%;
-            height: 100%;
          }
       }
       &-body {
