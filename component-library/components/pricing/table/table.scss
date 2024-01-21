@@ -1,7 +1,7 @@
 .pricing {
    position: relative;
    background:$color-secondary-dark;
-   margin-top: 0.5rem;
+   padding-top: 0.5rem;
    @include media-breakpoint-down-md {
       margin-top: -$base-margin * 25;
    }
