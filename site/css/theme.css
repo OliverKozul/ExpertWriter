@@ -13144,7 +13144,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   border: 3px solid #0d1538;
 }
 .works p {
-  padding-left: 1.5rem;
+  padding-left: 1.75rem;
   line-height: 30px;
   font-size: 1.25rem;
 }
