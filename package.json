@@ -11,7 +11,7 @@
     "start": "npm-run-all bookshop-sass:fetch-theme-color bookshop-sass:build --parallel bookshop-sass:watch eleventy:watch",
     "depinstall": "npm install npm build",
     "ele": "npx @11ty/eleventy",
-    "build": "npm-run-all bookshop-sass:fetch-theme-color ele"
+    "build": "npm-run-all bookshop-sass:fetch-theme-color bookshop-sass:build ele"
   },
   "author": "OliverKozul",
   "license": "MIT",
