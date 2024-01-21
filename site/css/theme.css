@@ -14379,7 +14379,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .pricing {
   position: relative;
   background: #ccd9f2;
-  margin-top: 0.5rem;
+  padding-top: 0.5rem;
 }
 @media (max-width: 767.98px) {
   .pricing {
