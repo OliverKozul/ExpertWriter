@@ -14826,16 +14826,6 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
     font-size: 1rem;
   }
 }
-@media (max-width: 1199.98px) {
-  .pricing .card-body ul li {
-    font-size: 0.95rem;
-  }
-}
-@media (max-width: 991.98px) {
-  .pricing .card-body ul li {
-    font-size: 0.9rem;
-  }
-}
 .pricing .card-body ul .deactive {
   color: #ababab;
 }
