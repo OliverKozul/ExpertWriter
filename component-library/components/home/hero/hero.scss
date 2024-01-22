@@ -3,50 +3,30 @@
   background: $color-secondary-dark;
   z-index: 1;
   overflow: hidden;
-  @include media-breakpoint-down-xl {
-    padding: $base-padding * 10 10 $base-padding * 10;
-  }
-  @include media-breakpoint-down-lg {
-    padding: $base-padding * 10 10 $base-padding * 10;
-  }
-  @include media-breakpoint-down-md {
-    padding: $base-padding * 10 10 $base-padding * 10;
-  }
-  @include media-breakpoint-down-sm {
-    padding: $base-padding * 10 10 $base-padding * 10;
-  }
-  &-content {
-    padding-left: $base-padding * 5;
-    @include media-breakpoint-down-xxxl {
-      padding-left: $base-padding * 15;
-    }
-    @include media-breakpoint-down-xxl {
-      padding-left: $base-padding * 15;
-    }
-    @include media-breakpoint-down-lg {
-      padding-left: $base-padding * 15;
-      text-align: center;
-    }
-    @include media-breakpoint-down-md {
-      padding-left: $base-padding * 15;
-    }
-    @include media-breakpoint-down-sm {
-      padding-left: $base-padding * 15;
-    }
-    h1 {
+  padding-top: $base-padding * 5;
+  padding-left: $base-padding * 7.5;
+  .hero-two-content {
+    h5 {
       line-height: 60px;
+      padding-top: $base-padding * 10;
+      @include media-breakpoint-down-xxxl {
+        padding-top: $base-padding * 9;
+      }
+      @include media-breakpoint-down-xxl {
+        padding-top: $base-padding * 0;
+      }
       @include media-breakpoint-down-lg {
-        padding-left: $base-padding * 15;
+        padding-top: $base-padding * 0;
         font-size: $base-font-size * 4;
         line-height: 80px;
       }
       @include media-breakpoint-down-md {
-        padding-left: $base-padding * 15;
+        padding-top: $base-padding * 0;
         font-size: $base-font-size * 3;
         line-height: 60px;
       }
       @include media-breakpoint-down-sm {
-        padding-left: $base-padding * 15;
+        padding-top: $base-padding * 0;
         font-size: $base-font-size * 2.5;
         line-height: 50px;
       }
@@ -59,14 +39,50 @@
   }
   img {
     margin-left: $base-margin * 3;
-    margin-top: 12rem;
+    margin-top: 10rem;
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
     height: auto;
   }
-  @media only screen and (max-width: 1366px) {
+  @include media-breakpoint-down-xxxl {
+    padding-top: $base-padding * 10;
+  }
+  @include media-breakpoint-down-xxl {
+    padding-top: $base-padding * 9;
+    padding-left: $base-padding * 0;
     img {
-      max-width: 75%;
+      margin-top: 0rem;
     }
+  }
+  @include media-breakpoint-down-lg {
+    padding-top: $base-padding * 8;
+    padding-left: $base-padding * 0;
+    img {
+      margin-top: 5rem;
+      width: 85%;
+    }
+  }
+  @include media-breakpoint-down-md {
+    padding-top: $base-padding * 7;
+    padding-left: $base-padding * 0;
+    img {
+      margin-top: 4rem;
+      width: 75%;
+    }
+  }
+  @include media-breakpoint-down-sm {
+    padding-top: $base-padding * 3;
+    padding-bottom: 0;
+    padding-left: $base-padding * 0;
+    img {
+      margin-top: 4rem;
+      width: 65%;
+      position: center;
+    }
+  }
+}
+.card-image {
+  @include media-breakpoint-down-sm {
+    padding-top: 0;
   }
 }

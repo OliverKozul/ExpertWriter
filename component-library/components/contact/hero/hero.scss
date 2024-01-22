@@ -1,29 +1,14 @@
 .contact-hero {
    background: $color-secondary-dark;
    text-align: center;
-   @include media-breakpoint-down-xl {
-      padding: $base-padding * 13 0 $base-padding * 5;
-      text-align: center;
-   }
-   @include media-breakpoint-down-lg {
-      padding: $base-padding * 12 0 $base-padding * 20;
-      text-align: center;
-   }
-   @include media-breakpoint-down-md {
-      padding: $base-padding * 10 0 $base-padding * 68;
-      text-align: center;
-   }
-   @include media-breakpoint-down-sm {
-      padding: $base-padding * 8.5 0 $base-padding * 66;
-      text-align: center;
-   }
+   padding-top: $base-padding * 12;
    &-content {
       h1 {
-         font-size: $base-font-size * 2;
-         margin-bottom: $base-margin * 1.5;
-         line-height: 50px;
+         font-size: $base-font-size * 3;
+         padding-bottom: $base-margin * 2;
+         line-height: 40px;
          @include media-breakpoint-down-sm {
-            font-size: $base-font-size * 2.5;
+            font-size: $base-font-size * 2;
             line-height: 30px;
          }
       }
@@ -39,5 +24,17 @@
          }
          padding-bottom: $base-padding;
       }
+   }
+   @include media-breakpoint-down-xl {
+      padding-top: $base-padding * 12;
+   }
+   @include media-breakpoint-down-lg {
+      padding-top: $base-padding * 7.5;
+   }
+   @include media-breakpoint-down-md {
+      padding-top: $base-padding * 7.5;
+   }
+   @include media-breakpoint-down-sm {
+      padding-top: $base-padding * 3;
    }
 }

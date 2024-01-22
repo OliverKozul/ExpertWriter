@@ -2,9 +2,6 @@
    position: relative;
    background:$color-secondary-dark;
    padding-top: 0.5rem;
-   @include media-breakpoint-down-md {
-      margin-top: -$base-margin * 25;
-   }
    .card {
       transition: all 0.3s ease-in-out;
       padding: $base-padding * 3 $base-padding * 0 $base-padding * 0;
@@ -31,14 +28,15 @@
          line-height: 37.5px;
          padding-left: $base-padding * 2.9;
          transition: all 0.3s ease-in-out;
+         @include media-breakpoint-down-xxl {
+            padding-left: $base-padding * 1.5;
+         }
          @include media-breakpoint-down-xl {
             padding-left: $base-padding * 1.5;
          }
          @include media-breakpoint-down-lg {
-            padding-left: $base-padding * 2.9;
-         }
-         @include media-breakpoint-down-md {
-            padding-left: $base-padding * 1.5;
+            font-size: $base-font-size * 2.5;
+            text-align: center;
          }
       }
       .card-text {
@@ -51,17 +49,15 @@
          padding-left: $base-padding * 2.9;
          @include media-breakpoint-down-xxl {
             font-size: $base-font-size * 1.1;
+            padding-left: $base-padding * 1.5;
          }
          @include media-breakpoint-down-xl {
             font-size: $base-font-size * 1;
             padding-left: $base-padding * 1.5;
          }
          @include media-breakpoint-down-lg {
-            font-size: $base-font-size * 1.25;
-            padding-left: $base-padding * 2.9;
-         }
-         @include media-breakpoint-down-md {
-            padding-left: $base-padding * 1.5;
+            font-size: $base-font-size * 1.5;
+            text-align: center;
          }
       }
       .price {
@@ -165,11 +161,14 @@
                &:last-child {
                   margin-bottom: 0;
                }
+               @include media-breakpoint-down-xxl {
+                  font-size: $base-font-size * 1;
+               }
                @include media-breakpoint-down-xl {
                   font-size: $base-font-size * 1.1;
                }
                @include media-breakpoint-down-lg {
-                  font-size: $base-font-size * 1.25;
+                  font-size: $base-font-size * 1.6;
                }
             }
             .deactive {

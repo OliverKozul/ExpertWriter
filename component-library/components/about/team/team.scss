@@ -1,7 +1,6 @@
 .team {
    background: $color-secondary-dark;
    padding-top: $base-padding * 5;
-   padding-bottom: $base-padding * 10;
    @include media-breakpoint-down-xxl {
       padding-top: $base-padding * 17.5;
    }
@@ -16,6 +15,7 @@
    }
    @include media-breakpoint-down-sm {
       padding-top: $base-padding * 10;
+      padding-bottom: 0;
    }
    .section-header {
       padding-bottom: $base-padding * 3.5;
