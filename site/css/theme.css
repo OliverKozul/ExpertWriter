@@ -13410,7 +13410,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .contact-hero-content h1 {
   font-size: 3rem;
   padding-bottom: 2rem;
-  line-height: 40px;
+  line-height: 55px;
 }
 @media (max-width: 575.98px) {
   .contact-hero-content h1 {
@@ -13827,6 +13827,9 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 }
 .faq-two .shows {
   border: 3px solid #0d1538;
+}
+.faq-two .section-header h2 {
+  font-size: 3rem;
 }
 
 /********** 
@@ -14822,6 +14825,16 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
   margin-bottom: 0;
 }
 @media (max-width: 1399.98px) {
+  .pricing .card-body ul li {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1199.98px) {
+  .pricing .card-body ul li {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 991.98px) {
   .pricing .card-body ul li {
     font-size: 1rem;
   }
