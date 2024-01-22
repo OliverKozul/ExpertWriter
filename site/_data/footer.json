@@ -44,8 +44,16 @@
           "text": "Editing levels"
         },
         {
+          "link": "/additional services",
+          "text": "Additional services"
+        },
+        {
           "link": "/pricing",
-          "text": "Price"
+          "text": "Pricing"
+        },
+        {
+          "link": "/serbian academics",
+          "text": "Serbian academics"
         },
         {
           "link": "/about",
