@@ -523,6 +523,94 @@ a {
    }
 }
 
+.section-header2 {
+   padding: $base-padding * 3 0 $base-padding * 4.1;
+   text-align: center;
+   position: relative;
+   @include media-breakpoint-down-xxl {
+      padding: $base-padding * 7 0 $base-padding * 4.1;
+   }
+   @include media-breakpoint-down-xl {
+      padding: $base-padding * 6 0 $base-padding * 4.1;
+   }
+   @include media-breakpoint-down-sm {
+      padding: $base-padding * 3 0 $base-padding * 4.1;
+   }
+   h2 {
+      position: relative;
+      font-size: $base-font-size * 4;
+      line-height: 81.25px;
+      letter-spacing: -0.4px;
+      margin-bottom: $base-margin * 1.5;
+      span {
+         color: $color-primary;
+      }
+      @include media-breakpoint-down-xxl {
+         font-size: $base-font-size * 3.5;
+      }
+      @include media-breakpoint-down-lg {
+         font-size: $base-font-size * 3;
+         line-height: 65px;
+      }
+      @include media-breakpoint-down-md {
+         font-size: $base-font-size * 2.5;
+         line-height: 1.4;
+      }
+      @include media-breakpoint-down-sm {
+         font-size: $base-font-size * 1.9;
+         margin-bottom: $base-margin * 0.6;
+         line-height: 37.5px;
+      }
+   }
+   h3 {
+      padding-top: 4rem;
+      position: relative;
+      font-size: 3rem;
+      line-height: 60px;
+      letter-spacing: -0.4px;
+   }
+   h4 {
+      position: relative;
+      font-size: 3.5rem;
+      line-height: 60px;
+      letter-spacing: -0.4px;
+   }
+   h5 {
+      position: relative;
+      text-align: justify;
+      font-size: 3.2rem;
+      line-height: 60px;
+      letter-spacing: -0.4px;
+   }
+   p {
+      font-size: $base-font-size * 1.4;
+      color: $color-text-light;
+      font-weight: $medium-font-weight;
+      line-height: 36.3px;
+      letter-spacing: -0.4px;
+      margin-bottom: 0;
+      @include media-breakpoint-down-sm {
+         font-size: $base-font-size * 1.1;
+         line-height: 29.7px;
+         letter-spacing: -0.008px;
+      }
+   }
+   p2 {
+      font-size: $base-font-size * 1.4;
+      color: $color-text-light;
+      font-weight: $medium-font-weight;
+      line-height: 36.3px;
+      letter-spacing: -0.4px;
+      margin-bottom: 0;
+      text-align: justify;
+      @include media-breakpoint-down-sm {
+         font-size: $base-font-size * 1.1;
+         line-height: 29.7px;
+         letter-spacing: -0.008px;
+      }
+   }
+}
+
 .feature-bg {
    background: $color-secondary;
 }
