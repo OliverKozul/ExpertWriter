@@ -12937,29 +12937,29 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 }
 
 .about-hero-two {
-  padding: 11rem 0 0rem;
+  padding: 12rem 0 0rem;
   background: #ccd9f2;
   overflow: hidden;
 }
 @media (max-width: 1399.98px) {
   .about-hero-two {
-    padding: 10rem 0 11rem;
+    padding: 12rem 0 0rem;
   }
 }
 @media (max-width: 1199.98px) {
   .about-hero-two {
-    padding: 10rem 0 48rem;
+    padding: 15rem 0 38rem;
     text-align: center;
   }
 }
 @media (max-width: 767.98px) {
   .about-hero-two {
-    padding: 10rem 0 38rem;
+    padding: 12rem 0 33rem;
   }
 }
 @media (max-width: 575.98px) {
   .about-hero-two {
-    padding: 8.5rem 0 33rem;
+    padding: 12rem 0 33rem;
   }
 }
 .about-hero-two-content {
