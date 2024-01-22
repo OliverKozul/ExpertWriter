@@ -164,6 +164,12 @@
                @include media-breakpoint-down-xxl {
                   font-size: $base-font-size * 1;
                }
+               @include media-breakpoint-down-xl {
+                  font-size: $base-font-size * 0.95;
+               }
+               @include media-breakpoint-down-lg {
+                  font-size: $base-font-size * 0.9;
+               }
             }
             .deactive {
                color: $color-deactive;
