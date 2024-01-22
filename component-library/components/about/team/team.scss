@@ -3,16 +3,19 @@
    padding-top: $base-padding * 5;
    padding-bottom: $base-padding * 10;
    @include media-breakpoint-down-xxl {
-      padding: $base-padding * 3 $base-padding * 0 $base-padding * 5;
+      padding-top: $base-padding * 17.5;
    }
    @include media-breakpoint-down-xl {
-      padding: $base-padding * 3 $base-padding * 0 $base-padding * 3;
+      padding-top: $base-padding * 17.5;
+   }
+   @include media-breakpoint-down-lg {
+      padding-top: $base-padding * 10;
    }
    @include media-breakpoint-down-md {
-      padding: $base-padding * 0 $base-padding * 0 $base-padding * 4;
+      padding-top: $base-padding * 10;
    }
    @include media-breakpoint-down-sm {
-      padding: $base-padding * 0 $base-padding * 0 $base-padding * 2;
+      padding-top: $base-padding * 10;
    }
    .section-header {
       padding-bottom: $base-padding * 3.5;
@@ -32,15 +35,20 @@
 
       &-thumb {
          margin-bottom: $base-margin * 1.5;
-         margin-left: $base-margin * 13;
          img {
             max-width: 100%;
             display: block;
             margin: 0 auto; /* Center horizontally */
             max-height: 100%;
+            height: auto;
             object-fit: cover; /* Maintain aspect ratio while covering the container */
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
          }
+         @media only screen and (max-width: 1366px) {
+            img {
+              max-width: 75%;
+            }
+          }
       }
       &-details {
          h3 {
