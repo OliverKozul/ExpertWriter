@@ -63,6 +63,22 @@
 {%- comment -%} Canonical URL for SEO {%- endcomment -%}
 {% if seo.canonical_url %}
     <link rel="canonical" href="{{ site.BaseURL }}{{ seo.canonical_url | url }}" />
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Expert Writer",
+        "url": {{ site.BaseURL }}{{ seo.canonical_url }}
+    }
+    </script>
 {% else %}
     <link rel="canonical" href="{{ site.BaseURL }}{{ page.url | url }}" />
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Expert Writer",
+        "url": {{ site.BaseURL }}
+    }
+    </script>
 {% endif %}
