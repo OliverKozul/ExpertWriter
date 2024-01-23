@@ -15078,7 +15078,7 @@ a {
 
 .sticky-nav {
    padding: $base-padding $base-padding * 2 !important;
-   background: #504f4f;
+   background: #8aa2cc;
    opacity: 0.97;
    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
    z-index: 1000;
@@ -15152,7 +15152,7 @@ a {
 **********/
 .footer {
    position: relative;
-   background: #504f4f;
+   background: #8aa2cc;
    &-wrapper {
       max-width: 1500px;
       margin: 0 auto;
@@ -15250,11 +15250,10 @@ a {
       }
       h3 {
          margin-bottom: $base-margin * 1.6;
-         color: $color-secondary-dark;
+         color: $color-text;
          font-family: $font-primary;
-         font-size: $base-font-size * 0.9;
+         font-size: $base-font-size * 1.5;
          font-weight: 600;
-         opacity: 0.7;
       }
       ul {
          margin-bottom: $base-margin * 0;
