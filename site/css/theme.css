@@ -13009,6 +13009,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .about-hero-two-content p {
   font-size: 1.4rem;
   color: #161616;
+  text-align: justify;
   font-weight: 500;
   line-height: 35px;
   letter-spacing: -0.4px;
