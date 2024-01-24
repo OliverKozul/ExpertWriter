@@ -13828,9 +13828,6 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
 .faq-two .shows {
   border: 3px solid #0d1538;
 }
-.faq-two .section-header h2 {
-  font-size: 3rem;
-}
 
 /********** 
   18. FAQ Section Styles
