@@ -450,7 +450,7 @@ a {
    }
    h2 {
       position: relative;
-      font-size: $base-font-size * 4;
+      font-size: $base-font-size * 3;
       line-height: 81.25px;
       letter-spacing: -0.4px;
       margin-bottom: $base-margin * 1.5;
@@ -14842,7 +14842,7 @@ a {
       padding: 1.5rem;
       border-radius: 0;
       width: 100%;
-      background: $color-white;
+      background: #8aa2cc;
    }
 }
 @include media-breakpoint-down-sm {

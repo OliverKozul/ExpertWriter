@@ -337,7 +337,7 @@ a a:hover {
 }
 .section-header h2 {
   position: relative;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 81.25px;
   letter-spacing: -0.4px;
   margin-bottom: 1.5rem;
@@ -12135,7 +12135,7 @@ btn-check:focus + .btn-secondary svg path, .btn-secondary:focus svg path, .btn-s
     padding: 1.5rem;
     border-radius: 0;
     width: 100%;
-    background: #fff;
+    background: #8aa2cc;
   }
 }
 @media (max-width: 575.98px) {
