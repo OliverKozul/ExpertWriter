@@ -524,21 +524,21 @@ a {
 }
 
 .section-header2 {
-   padding: $base-padding * 3 0 $base-padding * 4.1;
+   padding: $base-padding * 3 0 $base-padding * 0;
    text-align: center;
    position: relative;
    @include media-breakpoint-down-xxl {
-      padding: $base-padding * 7 0 $base-padding * 4.1;
+      padding: $base-padding * 7 0 $base-padding * 0;
    }
    @include media-breakpoint-down-xl {
-      padding: $base-padding * 6 0 $base-padding * 4.1;
+      padding: $base-padding * 6 0 $base-padding * 0;
    }
    @include media-breakpoint-down-sm {
-      padding: $base-padding * 3 0 $base-padding * 4.1;
+      padding: $base-padding * 3 0 $base-padding * 0;
    }
    h2 {
       position: relative;
-      font-size: $base-font-size * 4;
+      font-size: $base-font-size * 3;
       line-height: 81.25px;
       letter-spacing: -0.4px;
       margin-bottom: $base-margin * 1.5;

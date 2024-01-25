@@ -4,8 +4,8 @@
   @include media-breakpoint-down-xl {
       padding-bottom: $base-padding * 5;
   }
-  @include media-breakpoint-down-md {
-      padding-bottom: $base-padding * 3;
+  @include media-breakpoint-down-lg {
+      padding-bottom: $base-padding * 0;
   }
   .section-header {
       padding-bottom: $base-padding * 4.4;
