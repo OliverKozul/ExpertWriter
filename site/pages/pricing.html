@@ -16,75 +16,71 @@ content_blocks:
   - _bookshop_name: global/faq4
     title: Pricing
     title_suffix: ""
-    description: Prices are shown in EUR but international clients can pay in USD if preferred, while RSD equivalent will be payable within Serbia. All payments are made via bank transfers (using SWIFT for international transactions). 
+    description: ""
     FAQ:
       
   - _bookshop_name: pricing/table
     pricing_tier:
-      - tier: Normal
+      - tier: Standard
         highlight_tier: false
-        description: Per word / Per page*
+        description: Price per word
         currency_symbol: €
         price: 0
         has_discount: false
         discount_price: 0
         features:
-          - item: Level 1 - 0.010 / 3 €
+          - item: Level 1 - 0.010 €
             active_feature: true
-          - item: Level 2 - 0.025 / 8 €
+          - item: Level 2 - 0.025 €
             active_feature: true
-          - item: Level 3 - 0.030 / 10 €
+          - item: Level 3 - 0.030 €
             active_feature: true
-          - item: Level 4 - 0.040 / 12 €
+          - item: Level 4 - 0.040 €
             active_feature: true
-          - item: Reference form. - 0.025 / 8 €
+          - item: Reference form. - 0.025 €
             active_feature: true
-          - item: Reference conv. - 0.030 / 10 €
+          - item: Reference conv. - 0.030 €
             active_feature: true
-      - tier: Rush A (40% more)
+      - tier: Priority (20% extra)
         highlight_tier: false
-        description: Per word / Per page*
-        currency_symbol: €
-        price: 199
-        has_discount: false
-        discount_price: 0
-        features:
-          - item: Level 1 - 0.014 / 5 €
-            active_feature: true
-          - item: Level 2 - 0.035 / 12 €
-            active_feature: true
-          - item: Level 3 - 0.042 / 14 €
-            active_feature: true
-          - item: Level 4 - 0.056 / 18 €
-            active_feature: true
-          - item: Reference form. - 0.035 / 12 €
-            active_feature: true
-          - item: Reference conv. - 0.042 / 14 €
-            active_feature: true
-      - tier: Rush B (20% more)
-        highlight_tier: false
-        description: Per word / Per page*
+        description: Price per word
         currency_symbol: €
         price: 499
         has_discount: false
         discount_price: 0
         features:
-          - item: Level 1 - 0.012 / 4 €
+          - item: Level 1 - 0.012 €
             active_feature: true
-          - item: Level 2 - 0.030 / 10 €
+          - item: Level 2 - 0.030 €
             active_feature: true
-          - item: Level 3 - 0.036 / 12 €
+          - item: Level 3 - 0.036 €
             active_feature: true
-          - item: Level 4 - 0.048 / 16 €
+          - item: Level 4 - 0.048 €
             active_feature: true
-          - item: Reference form. - 0.030 / 10 €
+          - item: Reference form. - 0.030 €
             active_feature: true
-          - item: Reference conv. - 0.036 / 12 €
+          - item: Reference conv. - 0.036 €
             active_feature: true
-  - _bookshop_name: about/video
-    description1: >-
-      *Price per page is given for comparison with other sites where a standard page is considered 1800 characters / 300 words. However, all pricing is based on word count.
-  
+      - tier: Urgent (40% extra)
+        highlight_tier: false
+        description: Price per word
+        currency_symbol: €
+        price: 199
+        has_discount: false
+        discount_price: 0
+        features:
+          - item: Level 1 - 0.014 €
+            active_feature: true
+          - item: Level 2 - 0.035 €
+            active_feature: true
+          - item: Level 3 - 0.042 €
+            active_feature: true
+          - item: Level 4 - 0.056 €
+            active_feature: true
+          - item: Reference form. - 0.035 €
+            active_feature: true
+          - item: Reference conv. - 0.042 €
+            active_feature: true
   - _bookshop_name: global/faq
     title: Delivery
     title_suffix: Times
@@ -92,7 +88,7 @@ content_blocks:
 
   - _bookshop_name: pricing/table
     pricing_tier:
-      - tier: Normal Delivery
+      - tier: Standard
         highlight_tier: false
         description: For the indicated word ranges
         currency_symbol: €
@@ -108,23 +104,7 @@ content_blocks:
             active_feature: true
           - item: ">10000&nbsp -&nbsp 10 days"
             active_feature: true
-      - tier: Rush A
-        highlight_tier: false
-        description: For the indicated word ranges
-        currency_symbol: €
-        price: 199
-        has_discount: false
-        discount_price: 0
-        features:
-          - item: "<1000&nbsp -&nbsp 1 day"
-            active_feature: true
-          - item: 1000-5000&nbsp -&nbsp 2 days
-            active_feature: true
-          - item: 5000-10000&nbsp -&nbsp 3 days
-            active_feature: true
-          - item: ">10000&nbsp -&nbsp 5 days"
-            active_feature: true
-      - tier: Rush B
+      - tier: Priority
         highlight_tier: false
         description: For the indicated word ranges
         currency_symbol: €
@@ -139,6 +119,22 @@ content_blocks:
           - item: 5000-10000&nbsp -&nbsp 4 days
             active_feature: true
           - item: ">10000&nbsp -&nbsp 7 days"
+            active_feature: true
+      - tier: Urgent
+        highlight_tier: false
+        description: For the indicated word ranges
+        currency_symbol: €
+        price: 199
+        has_discount: false
+        discount_price: 0
+        features:
+          - item: "<1000&nbsp -&nbsp 1 day"
+            active_feature: true
+          - item: 1000-5000&nbsp -&nbsp 2 days
+            active_feature: true
+          - item: 5000-10000&nbsp -&nbsp 3 days
+            active_feature: true
+          - item: ">10000&nbsp -&nbsp 5 days"
             active_feature: true
 
   - _bookshop_name: global/faq
