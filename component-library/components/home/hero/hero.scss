@@ -35,6 +35,9 @@
     p {
       font-size: $base-padding * 1.4;
       text-align: justify;
+      @include media-breakpoint-down-lg {
+        text-align: center;
+      }
     }
   }
   img {

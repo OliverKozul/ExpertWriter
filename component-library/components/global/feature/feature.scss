@@ -17,6 +17,9 @@
         padding-right: $base-padding * 0;
         margin-bottom: $base-margin * 1.5;
       }
+      @include media-breakpoint-down-lg {
+        text-align: center;
+      }
       @include media-breakpoint-down-sm {
         font-size: $base-font-size * 1.9;
         margin-bottom: $base-margin * 1.25;
@@ -26,11 +29,13 @@
       text-align: justify;
       color: $color-text-light;
       margin-bottom: $base-margin * 0.7;
-      margin-left: $base-margin * 0.7;
       margin-right: $base-margin * 5;
       font-size: 20px;
       line-height: 33px;
       letter-spacing: -0.8px;
+      @include media-breakpoint-down-lg {
+        margin-right: $base-margin * 0;
+      }
       @include media-breakpoint-down-sm {
         font-size: $base-font-size * 1.1;
         line-height: 29.7px;

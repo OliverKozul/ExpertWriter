@@ -1,5 +1,6 @@
 .contact {
-  padding-bottom: $base-padding * 7.5;
+  padding-bottom: $base-padding * 5;
+  margin-top: -$base-margin * 5;
   background: $color-secondary-dark;
   @include media-breakpoint-down-xl {
     padding-bottom: $base-padding * 5;
