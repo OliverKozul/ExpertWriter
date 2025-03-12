@@ -2,7 +2,7 @@
   18. FAQ Section Styles
 **********/
 .faq-five {
-   padding-bottom: $base-padding * 0;
+   padding-bottom: 0;
    background:$color-secondary-dark;
    @include media-breakpoint-down-xl {
    }
