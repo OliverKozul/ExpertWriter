@@ -524,18 +524,10 @@ a {
 }
 
 .section-header2 {
-   padding: $base-padding * 3 0 $base-padding * 0;
+   padding-top: $base-padding * 1;
+   padding-bottom: $base-padding * 2.5;
    text-align: center;
    position: relative;
-   @include media-breakpoint-down-xxl {
-      padding: $base-padding * 7 0 $base-padding * 0;
-   }
-   @include media-breakpoint-down-xl {
-      padding: $base-padding * 6 0 $base-padding * 0;
-   }
-   @include media-breakpoint-down-sm {
-      padding: $base-padding * 3 0 $base-padding * 0;
-   }
    h2 {
       position: relative;
       font-size: $base-font-size * 3;
